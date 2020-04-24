@@ -8,4 +8,11 @@ DAY 1:
 - Implicit and Explicit Wait
 
 Day 2:
+- Accessing frames
+- Select dropdown and radio button
+- working with html table
 
+Day 3:
+- Scrolling
+- Handle mouse actions
+- Upload file
