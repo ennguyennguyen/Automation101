@@ -1,10 +1,10 @@
 # %% -- IMPORT LIBRARIES
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+import time
 
 # %% 4> IMPLICIT WAIT ===================
 driver = webdriver.Chrome(executable_path = "C:\\chromedriver_win32\\chromedriver.exe")
@@ -60,10 +60,5 @@ waitElement.click()
 # -- Close browser
 time.sleep(3)
 driver.close()
-
-
-
-
-
 
 # %%
