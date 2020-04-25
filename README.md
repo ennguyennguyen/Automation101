@@ -16,3 +16,7 @@ Day 3:
 - Scrolling
 - Handle mouse actions
 - Upload file
+- Data Driven test
+  --> Read data from file
+  --> Write data to file
+  --> Full Data Driven test case
