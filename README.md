@@ -20,3 +20,14 @@ Day 3:
   --> Read data from file
   --> Write data to file
   --> Full Data Driven test case
+
+Day 4:
+- Taking screenshot using save_screenshot("filename") and get_screenshot_as_file("filename")
+- Generate log file
+- Python UnitTest Framework
+  ---> setup: method which is executed before execute a method
+  ---> teardown: method which is executed after execute a method
+  ---> setUpClass
+  ---> tearDownClass
+  ---> setUpModule
+  ---> tearDownModule
