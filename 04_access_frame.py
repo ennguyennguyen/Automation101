@@ -2,9 +2,10 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 import time
+from webdriver_manager.chrome import ChromeDriverManager
 
 # %% -- TEST CASES
-driver = webdriver.Chrome(executable_path = "C:\\chromedriver_win32\\chromedriver.exe")
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 driver.get("https://www.selenium.dev/selenium/docs/api/java/")
 time.sleep(3)

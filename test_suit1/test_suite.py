@@ -17,7 +17,9 @@ paymentTest = unittest.TestLoader().loadTestsFromTestCase(PaymentTest)
 paymentReturnTest = unittest.TestLoader().loadTestsFromTestCase(PaymentReturnTest)
 
 # STEP 3: create test suite
-sanityTestSuite = unittest.TestSuite(loginTest, signUpTest)     # put 2 tests into a test suite called "Sanity Test suite"
+allTestSuite = unittest.TestSuite([loginTest,signUpTest, paymentTest, paymentReturnTest])     # put 2 tests into a test suite called "Sanity Test suite"
+functionalTestSuite = unittest.TestSuite([loginTest, signUpTest])
+newFeatureTestSuite = unittest.TestSuite([paymentReturnTest, paymentTest])
 
 # STEP 4: run test suite
-unittest.TextTestRunner().run(sanityTestSuite)
+unittest.TextTestRunner().run(newFeatureTestSuite)

@@ -2,11 +2,13 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
+from webdriver_manager.chrome import ChromeDriverManager
 
 # %% 1> BASIC COMMANDS
 
 # --Initial web browser
-driver = webdriver.Chrome(executable_path = "C:\\chromedriver_win32\\chromedriver.exe")
+#driver = webdriver.Chrome(executable_path = "C:\\chromedriver_win32\\chromedriver.exe")
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 # -- open website
 driver.get("https://hopamchuan.com/")
